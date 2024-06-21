@@ -1,0 +1,32 @@
+.poke-app {
+    text-align: center;
+    padding: 20px;
+}
+
+.poke-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.poke-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.poke-card img {
+    width: 100px;
+    height: 100px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+    font-size: 16px;
+}
