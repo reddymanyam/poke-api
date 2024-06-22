@@ -40,7 +40,7 @@ const PokeApp = () => {
             <div className="poke-container">
                 {filteredPokemons.map(pokemon => (
                     <div className="poke-card" key={pokemon.id}>
-                        <img src={pokemon.sprites.front_default} alt={pokemon.name} />
+                        <img src={pokemon.url} alt={pokemon.name} />
                         <h3>{pokemon.name}</h3>
                     </div>
                 ))}
